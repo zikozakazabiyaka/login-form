@@ -1,0 +1,35 @@
+.form__control {
+    margin-bottom: 16px;
+}
+
+.form__control-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__control-input {
+    height: 28px;
+    padding: 0 4px;
+    margin-top: 2px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    transition: 0.3s;
+    outline: none;
+}
+
+.form__control-input:focus {
+    box-shadow: 0 0 5px 2px #ccc;
+}
+
+.form__control-input.is-invalid {
+    border-color: #C4482D;
+}
+
+.form__control-input.is-invalid:focus {
+    box-shadow: 0 0 5px 2px #F9B9AC;
+}
+
+.form__control-message {
+    font-size: 14px;
+    color: #C4482D;
+}
